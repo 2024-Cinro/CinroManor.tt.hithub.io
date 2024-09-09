@@ -207,11 +207,25 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100%;
-  position: absolute;
+  max-width: 1000px;
+  position: relative;
   margin: auto;
 }
 
+ /* hide the images by default*/
+ .mySlides[
+ display:none;]
+
+ /* Next & previous buttons*/
+ .prev, .next[
+ cursor:pointer;
+ position: absolute;
+ top:50%;
+ margin-top:-22px;
+ padding:16px;
+ user select:none;
+ ]
+ 
 /* Caption text */
 .text {
   color: #f2f2f2;
